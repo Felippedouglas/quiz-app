@@ -1,0 +1,61 @@
+.bt-comecar-quiz {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: #0081d6;
+    white-space: nowrap;
+    transition: all .3s ease;
+}
+
+.bt-comecar-quiz:hover {
+    background: #00538a;
+}
+
+.div-tentar-novamente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    background: #fff;
+    color: #181818;
+    border-radius: 5px;
+}
+
+.div-tentar-novamente p {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.div-tentar-novamente .p-emoji {
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
+@media (max-width: 450px) {
+
+    .div-tentar-novamente p {
+        font-size: .8rem;
+    }
+
+    .bt-comecar-quiz {
+        padding: 10px 15px;
+        font-size: 1rem;
+        white-space: normal;
+    }
+
+    .div-tentar-novamente {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 50px;
+        background: #fff;
+        color: #181818;
+        border-radius: 5px;
+    }
+}
